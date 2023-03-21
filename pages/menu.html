@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suzi's Bakeshop</title>
+    <title>Menu | Suzi's Bakeshop</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img id="logo" src="" alt="">
+        <div id="logo-wrapper">
+            <a href="../index.html">
+                <img id="logo" src="../images/logo-no-background.png" alt="Suzi's Bakeshop Logo">
+            </a>
+        </div>
         <nav>
-            <ul>
+            <ul class="nav">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
@@ -21,25 +30,33 @@
     </header>
     <div id="content-wrapper">
         <main>
-            <div class="menu-option">
-                <img src="" alt="">
-                <caption>Item Name - Qty</caption>
-            </div>
+            <div class="menu">
+                <div class="menu-option">
+                    <img src="../images/butter-cookies.jpg" alt="butter cookies">
+                    <caption>Butter Cookies - 20 ct</caption>
+                    <button data-order="butter-cookies">Order</button>
+                </div>
 
-            <div class="menu-option">
-                <img src="" alt="">
-                <caption>Item Name - Qty</caption>
-            </div>
-            
-            <div class="menu-option">
-                <img src="" alt="">
-                <caption>Item Name - Qty</caption>
+                <div class="menu-option">
+                    <img src="../images/pumpkin-pie.jpg" alt="pumpkin pie">
+                    <caption>Pumpkin Pie - 1 ct</caption>
+                    <button data-order="pumpkin-pie">Order</button>
+                </div>
+
+                <div class="menu-option">
+                    <img src="../images/cookies.jpg" alt="Peppernuts">
+                    <caption>Peppernuts - 1/2 lb</caption>
+                    <button data-order="peppernut-cookies">Order</button>
+                </div>
             </div>
         </main>
         <aside>
-            <img class="ad" src="" alt="">
-            <img class="ad" src="" alt="">
-            <img class="ad" src="" alt="">
+            <div id="ads">
+                <img class="ad" src="../images/pasta.jpg" alt="Pete's Pasta advertisement">
+                <img class="ad" src="../images/measuring spoons.jpg" alt="measuring spoons advertisement">
+                <img class="ad" src="../images/cookie-rack.jpg" alt="cookie rack advertisement">
+            </div>
+            <p>advertisement</p>
         </aside>
     </div>
     <footer>

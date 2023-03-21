@@ -1,0 +1,32 @@
+.menu {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-option {
+    font-family: 'Roboto', sans-serif;
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu-option > img {
+    width: 100%;
+}
+
+caption, button {
+    display: block;
+}
+
+.menu-option > button {
+    background-color: #f9e17e;
+    padding: 5px;
+    margin: 10px 0px;
+    border: solid 1px black;
+    border-radius: 5px;
+}

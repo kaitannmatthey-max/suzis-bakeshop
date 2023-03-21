@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suzi's Bakeshop</title>
+    <title>Request | Suzi's Bakeshop</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/requests.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img id="logo" src="" alt="">
+        <div id="logo-wrapper">
+            <a href="../index.html">
+                <img id="logo" src="../images/logo-no-background.png" alt="Suzi's Bakeshop Logo">
+            </a>
+        </div>
         <nav>
-            <ul>
+            <ul class="nav">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
@@ -26,23 +35,30 @@
             <form>
                 <label for="">First Name:</label>
                 <input type="text">
+                <br>
                 <label for="">Last Name:</label>
                 <input type="text">
+                <br>
                 <label for="">Email Address:</label>
                 <input type="text">
+                <br>
                 <label for="">Requested Menu Item:</label>
                 <select name="" id="">
                     <option value="">Option 1</option>
                     <option value="">Option 2</option>
                     <option value="">Option 3</option>
                 </select>
+                <br>
+                <br>
                 <button>Submit</button>
+                <!-- href="mailto:suzi@suzisbakeshop.com?subject=Baked%20Goods%20Request" -->
             </form>
         </main>
         <aside>
-            <img class="ad" src="" alt="">
-            <img class="ad" src="" alt="">
-            <img class="ad" src="" alt="">
+            <img class="ad" src="../images/whisk.jpg" alt="Walter's Whisks advertisement">
+            <img class="ad" src="../images/flowers.jpg" alt="Betsy's Flower Shop advertisement">
+            <img class="ad" src="../images/flour.jpg" alt="Paul's Flour advertisement">
+            <p>Advertisement</p>
         </aside>
     </div>
     <footer>
